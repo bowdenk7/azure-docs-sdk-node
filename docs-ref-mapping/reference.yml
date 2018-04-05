@@ -27,6 +27,15 @@
         landingPageType: Service
         children:
         - azure-arm-advisor
+    - name: AKS
+      uid: azure.nodejs.sdk.landingpage.services.containerService
+      href: ~/docs-ref-services/aks.md
+      items:
+      - name: Client
+        uid: azure.nodejs.sdk.landingpage.services.containerService.Client
+        landingPageType: Service
+        children:
+        - azure-arm-containerservice		
     - name: Analysis Services
       uid: azure.nodejs.sdk.landingpage.services.analysisservices
       href: ~/docs-ref-services/analysis-services.md
